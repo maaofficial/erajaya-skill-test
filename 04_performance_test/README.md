@@ -1,6 +1,6 @@
 # Soal 4 – Performance Test JMeter (DemoQA Book Store)
 
-Target: https://demoqa.com (Book Store API). Referensi: `Pre_Test_QA_Revised_2.1.docx.pdf` – Soal 4.
+Target: https://demoqa.com (Book Store API) – Soal 4.
 
 ## File
 | File | Fungsi |

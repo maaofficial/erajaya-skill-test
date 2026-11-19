@@ -35,7 +35,6 @@ Repositori ini berisi hasil pengerjaan **Pre-Test Quality Assurance (QA Engineer
 erajaya-skill-test/
 ├── .gitignore                                 # Aturan pengabaian file sensitif, output test, dan log
 ├── README.md                                  # Dokumentasi utama proyek
-├── Pre_Test_QA_Revised_2.1.docx.pdf           # Dokumen acuan / petunjuk tes QA
 │
 ├── 01_test_case/                              # SOAL 1: Desain Test Case Manual
 │   └── Testcase Pre Test QA - Mokhamad Aulia.xlsx # Dokumen Test Case lengkap (Matrix & Test Steps)

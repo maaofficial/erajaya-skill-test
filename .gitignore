@@ -66,3 +66,6 @@ generate_*.py
 ehthumbs.db
 Thumbs.db
 desktop.ini
+
+# --- Assessment Brief Documents ---
+*.pdf
