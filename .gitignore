@@ -1,0 +1,68 @@
+# ==============================================================================
+# Git Ignore Configuration - QA Automation Assessment
+# ==============================================================================
+
+# --- Secrets & Environment Variables ---
+.env
+*.env
+!.env.example
+
+# --- Robot Framework Execution Outputs ---
+# Output logs, reports, and failure screenshots (may contain credentials/PII)
+**/results/
+output.xml
+log.html
+report.html
+selenium-screenshot-*.png
+appium-screenshot-*.png
+
+# --- JMeter Outputs & Reports ---
+jmeter.log
+*.log
+*.jtl
+04_performance_test/html_report/
+04_performance_test/report/
+
+# --- Python Caches & Virtual Environments ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+generate_*.py
+*generate*.py
+
+# --- IDE & Editor Specific Files ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Operating System Files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
